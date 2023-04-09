@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+
+    padding: 4px;
+    text-align: center;
+}
+
+
+nav {
+    background: rgb(170, 169, 169);
+    font-size: 20px;
+    width: 100%;
+    
+}
+
+
+nav ul li {
+    display: block;
+    list-style: none;
+
+
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px ;
+   
+}
+
+nav {
+    display: table;
+    table-layout: fixed;
+    margin-top: 50px;
+}
+
+
+ul li {
+    flex-grow: 1;
+}
+
+.p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 80px;
+}
+
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+.form-fila {
+    display: flex;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.form-col {
+    width: 50%;
+    margin-bottom: 8px;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 1px;
+    border-width: 1px;
+    padding: 5px;
+    color:black;
+}
+
+button {
+    border-radius: 0.25rem;
+    border-width: 1px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+    nav {
+        font-size: 15px;
+    }
+
+    nav {
+        font-size: 20px;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    nav ul li {
+        text-align: center;
+        border-left: 1px solid var(--light);
+        border-right: 1px solid var(--cosa);
+    }
+
+    nav {
+        font-size: 22px;
+    }
+
+
+    footer{
+        margin-top: 60px;
+        background-color: rgb(164, 163, 163);
+        padding: 20px;
+    }
